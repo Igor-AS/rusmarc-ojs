@@ -3,6 +3,9 @@
 
 yaz-marcdump -i marc -o marcxml bulletin_tpu-2012-v320-i1.mrc >issue-2012-v320-i1.xml
 
+xsltproc issue.xsl issue-2012-v320-i1.xml >OJS-issue.xml
+
+
 RUSMARC российская версия UNIMARC http://rusmarc.ru
 
 Open Journal Systems (OJS) https://pkp.sfu.ca/ojs/
