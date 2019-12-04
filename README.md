@@ -1,5 +1,5 @@
 # rusmarc-ojs
-Конвертирует статьи выпуска из mrc (rusmarc) в xml OJS (Open Journal Systems)
+Конвертирует статьи выпуска из mrc (rusmarc / unimarc) в xml OJS (Open Journal Systems)
 
 
     yaz-marcdump -i marc -o marcxml bulletin_tpu-2012-v320-i1.mrc >issue-2012-v320-i1.xml
